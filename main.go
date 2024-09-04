@@ -12,9 +12,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/MrChiz/ppmap/pkg/cmd"
+	"github.com/MrChiz/ppmap/v2/pkg/cmd"
 
-	"github.com/MrChiz/ppmap/pkg/gadgets"
+	"github.com/MrChiz/ppmap/v2/pkg/gadgets"
 )
 
 // some fancy colour variables here
