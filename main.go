@@ -3,8 +3,6 @@ package main
 import (
 	"context"
 	"log"
-	"ppmap/pkg/cmd"
-	"ppmap/pkg/gadgets"
 	"sync"
 	"time"
 
@@ -13,6 +11,10 @@ import (
 	"github.com/iunary/fakeuseragent"
 
 	"github.com/spf13/cobra"
+
+	"github.com/MrChiz/ppmap/pkg/cmd"
+
+	"github.com/MrChiz/ppmap/pkg/gadgets"
 )
 
 // some fancy colour variables here
