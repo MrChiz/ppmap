@@ -1,4 +1,4 @@
-module github.com/MrChiz/ppmap
+module github.com/MrChiz/ppmap@latest
 
 go 1.22.6
 
