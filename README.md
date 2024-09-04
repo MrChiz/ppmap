@@ -7,11 +7,8 @@ Make sure to have Chromium installed.
 ## Installation
 - Run the following command to clone the repo: 
  ```bash
-git clone https://github.com/MrChiz/ppmap
-cd ppmap
-go install .
+go install github.com/MrChiz/ppmap/v2@latest
 sudo cp ~/go/bin/ppmap /usr/local/bin
-cd ~
  ```
  - 
 That's it. Enjoy using ppmap!
@@ -23,4 +20,5 @@ Using the program is very simple, you can either:
 
 ## Demo
 
-![Screenshot_2024-09-04_05-55-21](https://github.com/user-attachments/assets/c44c9fab-1549-4352-bc4f-5b4a90fb8251)
+![Screenshot_2024-09-04_11-18-30](https://github.com/user-attachments/assets/da8f540c-ea68-4378-b40c-7469e0fe3b37)
+
